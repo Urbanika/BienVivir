@@ -1,18 +1,30 @@
-## Business data:
+# Business data:
 * Google Maps stamp description: appears in GMaps, Rating, Number of reviews, Has photos, Has most busy time graph, Phone number validated, Validation provider.
 * Link to GMaps EAS schema: https://arbitrum.easscan.org/schema/view/0xa9c64a99ed5dcee0a61dc08421e2fa64d07e146fc1f2caa78985127267352736
 * Raw Google Maps schema: bool Exists_in_GMaps,string Rating,string Number_of_reviews,bool Has_photos,bool Has_clients_traffic_graph,bool Phone_number_validated,address Validation_Provider
+* Validation provider: Google API
 
-## Owner data:
+# Owner data:
 * Holonym stamp description: zK proof of national identity.
-* Link to Holonym EAS schema:
-* Raw Holonym schema:
+* Link to Holonym EAS schema: TO BE ADDED.
+* Raw Holonym schema: TO BE ADDED.
+* Validation provider: Holonym API
+
+* Home address stamp description: Human validator goes to location submitted by borrower, validates through a token-gated deForm only for the validator role that the borrower is living in the location and that her address matches with both the GMaps location and the proof of address bill.
+* Link to Home address EAS schema: https://arbitrum.easscan.org/schema/view/0x8573b5c964105819c0c283ec74efb1d2c3965e63d6a7b1420afe3aacd7c3e704
+* Raw Home address schema: address Validator_wallet,bool Borrower_present_at_validation,bool Proof_of_address_matches_actual_location,bool Name_in_proof_of_address_matches_name_in_borrower_ID
+* Validation provider: deForm API
+
+* Business address stamp description: Human validator goes to location submitted by borrower, validates through a token-gated deForm only for the validator role that the borrower is present, is the owner of the business, the address matches with both the GMaps location and the proof of address bill, and if the person has a municipal license to operate the business.
+* Link to Home address EAS schema: https://arbitrum.easscan.org/schema/view/0x2b810616c59ed0d1db40766a1959b946d5e98a1481a0f6ea6305bcc7825dddcc
+* Raw Business address schema: address Validator_wallet,bool Proof_of_address_matches_actual_location,bool Valid_municipal_license,bool Name_in_proof_of_address_matches_name_in_borrower_ID,bool GMaps_location_matches_the_business_in_regard
+* Validation provider: deForm API
 
 * WhatsApp stamp description: Proof of active WhatsApp phone number.
 * Link to WhatsApp EAS schema: https://arbitrum.easscan.org/schema/view/0xb556203e170e401e3a07ec0f7ad9713a72bbc38a0002aaebb1c4a60cfac5309d
 * Raw WhatsApp schema: bool WhatsApp_active,string Verification_provider
 
-## Climate resilience data: 
+# Climate resilience data: 
 * Climate courses taken stamp description:  Proof of trainings taken.
 * Link to Climate courses taken EAS schema: https://arbitrum.easscan.org/schema/view/0x7ce381c0f7dd819fb091b93b5934eb219972c828e4fa86e672c202a2181fd397
 * Raw Climate courses taken schema: string Climate_course_name,string Date,string Climate_resilience_topic,address Trainer
