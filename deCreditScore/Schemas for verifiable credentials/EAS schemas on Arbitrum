@@ -1,0 +1,22 @@
+## Business data:
+* Google Maps stamp description: appears in GMaps, Rating, Number of reviews, Has photos, Has most busy time graph, Phone number validated, Validation provider.
+* Link to GMaps EAS schema: https://arbitrum.easscan.org/schema/view/0xa9c64a99ed5dcee0a61dc08421e2fa64d07e146fc1f2caa78985127267352736
+* Raw Google Maps schema: bool Exists_in_GMaps,string Rating,string Number_of_reviews,bool Has_photos,bool Has_clients_traffic_graph,bool Phone_number_validated,address Validation_Provider
+
+## Owner data:
+* Holonym stamp description: zK proof of national identity.
+* Link to Holonym EAS schema:
+* Raw Holonym schema:
+
+* WhatsApp stamp description: Proof of active WhatsApp phone number.
+* Link to WhatsApp EAS schema: https://arbitrum.easscan.org/schema/view/0xb556203e170e401e3a07ec0f7ad9713a72bbc38a0002aaebb1c4a60cfac5309d
+* Raw WhatsApp schema: bool WhatsApp_active,string Verification_provider
+
+## Climate resilience data: 
+* Climate courses taken stamp description:  Proof of trainings taken.
+* Link to Climate courses taken EAS schema: https://arbitrum.easscan.org/schema/view/0x7ce381c0f7dd819fb091b93b5934eb219972c828e4fa86e672c202a2181fd397
+* Raw Climate courses taken schema: string Climate_course_name,string Date,string Climate_resilience_topic,address Trainer
+
+* Eco-tech adoption stamp description: Proof of eco-tech adopted.
+* Link to Eco-tech adoption EAS schema: https://arbitrum.easscan.org/schema/view/0xf0249019b36209ad9bed605a894e6368ae7e132226d0859222d1696d768fb1a6
+* Raw Eco-tech adoption schema: string Eco_technology_name,string Type,string Provider,string Date_Implementation,string URL_to_Proof
