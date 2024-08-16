@@ -6,8 +6,8 @@
 
 # Owner data:
 * Holonym stamp description: zK proof of national identity.
-* Link to Holonym EAS schema: TO BE ADDED.
-* Raw Holonym schema: TO BE ADDED.
+* Link to Holonym EAS schema: https://arbitrum.easscan.org/schema/view/0xd1a29ed56deffa02ab4b8b9df6cfe9e25d2a92b374fa34b52bce2265baf92199
+* Raw Holonym schema: bool Passed_zK_KYC,string zk_KYC_provider
 * Validation provider: Holonym API
 
 * Home address stamp description: Human validator goes to location submitted by borrower, validates through a token-gated deForm only for the validator role that the borrower is living in the location and that her address matches with both the GMaps location and the proof of address bill.
