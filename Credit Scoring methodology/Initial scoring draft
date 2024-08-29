@@ -1,0 +1,26 @@
+# Intro
+This is the initial draft for the scoring methodology. In its current state it only serves as a piece of the automation process to show at the user interface the interest rate based on the user's credit score.
+On a second iteration, this document will provide a methodology based on best practices within the industry and the reforms that token engineers, ReFi advocates, and financial justice experts build together.
+
+As a note, take in consideration that current interest rates in México vary between 60% to 365% a year, and do not provide any additional benefit to the borrower than the opportunity to access credit.
+The intention of this protocol is to attract international DeFi lenders while channeling a sufficient profit amount to save up a non-withdrawable collateral for each borrower, as well as to make the protocol both operationable and scalable.
+The ultimate goal is to facilitate the building of financial resilience by micro-business owners and get them access to the cheapest interest rates from their national level.
+
+# Table of Score to Interest rate matching.
+|Score in points|Annual interest rate|
+|10|180%|
+|20|170%|
+|30|150%|
+|40|120%|
+|50|90%|
+|60|80%|
+
+# Stamps participating and their value in scoring points
+|Stamp name|Scoring points value|
+|Phone validation|10|
+|Business address validation|10|
+|Home address validation|10|
+|Climate education validation|10|
+|Climate technology adoption validation|10|
+|zK ID validation|10|
+|Business active by GMaps validation|10|
