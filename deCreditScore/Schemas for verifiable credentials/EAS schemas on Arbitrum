@@ -28,5 +28,5 @@
 * Link to Eco-tech adoption EAS schema: https://arbitrum.easscan.org/schema/view/0xfe6016bea83652afc02851dca41197c32f82c4fe94297575ee3c46e42ef0f05c
 * Raw Eco-tech adoption schema: string Eco_technology_name,string Type,string Provider,string Date_Implementation,string URL_to_Proof
 
-# Total Score snapshot: 
+# Total Score snapshot: Attestates the final score gotten by the user Borrower. This score is the factor to issue the interest rate.
 * Link to Total Score EAS schema: https://arbitrum.easscan.org/schema/view/0xf714e46dca9b2bae16c5bb79edd8935f9c938d0b6c69d8b08dd4d3a78ec197e2
